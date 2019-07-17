@@ -1,5 +1,8 @@
 @echo off
 setlocal enabledelayedexpansion
+
+@xcopy out\msvc-x64\Release\mimalloc-override.dll bin\windows\release\x86-64\ /y
+
 @rem set string=rpmalloc,tcmalloc,crt,hoard,nedmalloc
 set string=rpmalloc,tcmalloc,mimalloc,crt
 :again

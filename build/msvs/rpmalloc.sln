@@ -15,6 +15,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "benchmark-rpmalloc", "bench
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "benchmark-tcmalloc", "benchmark-tcmalloc.vcxproj", "{8C8E2334-F4B7-49C5-A199-19B94973791C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mimalloc-override", "..\..\..\mimalloc\ide\vs2017\mimalloc-override.vcxproj", "{ABB5EAE7-B3E6-432E-B636-333449892EA7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "benchmark-mimalloc", "benchmark-mimalloc.vcxproj", "{5EC9201E-D458-45A3-8DD4-36A6E609FFBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,8 +75,27 @@ Global
 		{8C8E2334-F4B7-49C5-A199-19B94973791C}.Release|x64.Build.0 = Release|x64
 		{8C8E2334-F4B7-49C5-A199-19B94973791C}.Release|x86.ActiveCfg = Release|Win32
 		{8C8E2334-F4B7-49C5-A199-19B94973791C}.Release|x86.Build.0 = Release|Win32
+		{ABB5EAE7-B3E6-432E-B636-333449892EA7}.Debug|x64.ActiveCfg = Debug|x64
+		{ABB5EAE7-B3E6-432E-B636-333449892EA7}.Debug|x64.Build.0 = Debug|x64
+		{ABB5EAE7-B3E6-432E-B636-333449892EA7}.Debug|x86.ActiveCfg = Debug|Win32
+		{ABB5EAE7-B3E6-432E-B636-333449892EA7}.Debug|x86.Build.0 = Debug|Win32
+		{ABB5EAE7-B3E6-432E-B636-333449892EA7}.Release|x64.ActiveCfg = Release|x64
+		{ABB5EAE7-B3E6-432E-B636-333449892EA7}.Release|x64.Build.0 = Release|x64
+		{ABB5EAE7-B3E6-432E-B636-333449892EA7}.Release|x86.ActiveCfg = Release|Win32
+		{ABB5EAE7-B3E6-432E-B636-333449892EA7}.Release|x86.Build.0 = Release|Win32
+		{5EC9201E-D458-45A3-8DD4-36A6E609FFBB}.Debug|x64.ActiveCfg = Debug|x64
+		{5EC9201E-D458-45A3-8DD4-36A6E609FFBB}.Debug|x64.Build.0 = Debug|x64
+		{5EC9201E-D458-45A3-8DD4-36A6E609FFBB}.Debug|x86.ActiveCfg = Debug|Win32
+		{5EC9201E-D458-45A3-8DD4-36A6E609FFBB}.Debug|x86.Build.0 = Debug|Win32
+		{5EC9201E-D458-45A3-8DD4-36A6E609FFBB}.Release|x64.ActiveCfg = Release|x64
+		{5EC9201E-D458-45A3-8DD4-36A6E609FFBB}.Release|x64.Build.0 = Release|x64
+		{5EC9201E-D458-45A3-8DD4-36A6E609FFBB}.Release|x86.ActiveCfg = Release|Win32
+		{5EC9201E-D458-45A3-8DD4-36A6E609FFBB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FC5C6D8-815D-4351-B316-24408B61641D}
 	EndGlobalSection
 EndGlobal
