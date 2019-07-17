@@ -643,7 +643,7 @@ benchmark_run(int argc, char** argv) {
 	size_t min_size = (size_t)strtol(argv[8], 0, 10);
 	size_t max_size = (argc > 9) ? (size_t)strtol(argv[9], 0, 10) : 0;
 
-	if ((thread_count < 1) || (thread_count > 64)) {
+	if ((thread_count < 1) || (thread_count > 1000)) {
 		printf("Invalid thread count: %s\n", argv[1]);
 		return -3;
 	}
